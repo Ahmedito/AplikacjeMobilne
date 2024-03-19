@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+        <item android:drawable="@drawable/trojkat1" android:duration="100" />
+        <item android:drawable="@drawable/trojkat2" android:duration="100" />
+        <item android:drawable="@drawable/trojkat3" android:duration="100" />
+        <item android:drawable="@drawable/trojkat4" android:duration="100" />
+    </animation-list>
+
+
+    <translate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:fromXDelta="0%p" android:toXDelta="80%p"
+        android:duration="1000"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse" />
+
+
+</selector>
